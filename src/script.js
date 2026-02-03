@@ -102,7 +102,7 @@ const productos = [
     {
         id: 7,
         nombre: "Chisato Nishikigi - Chinese Style figure",
-        precio: "55",
+        precio: "50",
         fotos: ["src/img/figure_chisato_1.webp","src/img/figure_chisato_4.webp","src/img/figure_chisato_5.webp","src/img/figure_chisato_2.webp","src/img/figure_chisato_6.webp","src/img/figure_chisato_3.webp"],
 
         detalles: {
@@ -119,7 +119,7 @@ const productos = [
     {
         id: 8,
         nombre: "Yotsuba Nakano-Uniform ver. figure",
-        precio: "55",
+        precio: "50",
         fotos: ["src/img/figure_yotsuba_uniforme_ver_1.webp","src/img/figure_yotsuba_uniforme_ver_2.webp","src/img/figure_yotsuba_uniforme_ver_3.webp","src/img/figure_yotsuba_uniforme_ver_5.webp",],
 
         detalles: {
@@ -135,7 +135,7 @@ const productos = [
     {
         id: 9,
         nombre: "Nino Nakano -Uniform ver. figure",
-        precio: "55",
+        precio: "50",
         fotos: ["src/img/figure_nino_uniforme_ver_1.webp",
             "src/img/figure_nino_uniforme_ver_4.webp",
             "src/img/figure_nino_uniforme_ver_5.webp",
@@ -157,7 +157,7 @@ const productos = [
     {
         id: 10,
         nombre: "Ichika Nakano - Luminasta",
-        precio: "55",
+        precio: "50",
         fotos: ["src/img/figure_ichika_luminasta_1.webp",
             "src/img/figure_ichika_luminasta_3.webp",
             "src/img/figure_ichika_luminasta_4.webp",
@@ -179,7 +179,7 @@ const productos = [
     {
         id: 11,
         nombre: "Nino Nakano - Luminasta",
-        precio: "55",
+        precio: "50",
         fotos: ["src/img/figure_nino_luminasta_1.webp",
             "src/img/figure_nino_luminasta_3.webp",
             "src/img/figure_nino_luminasta_4.webp",
@@ -322,7 +322,7 @@ const productos = [
     {
         id: 17,
         nombre: "Nami Action Doll PVC GK Statue-26cm",
-        precio: "65",
+        precio: "60",
         fotos: ["src/img/replica_nami_2.webp",
             "src/img/replica_nami_3.webp",
             "src/img/replica_nami_5.webp",
@@ -371,7 +371,7 @@ const productos = [
     {
         id: 19,
         nombre: "OL-chan Action Figure Adult Model Doll Toy- 29cm",
-        precio: "65",
+        precio: "60",
         fotos: ["src/img/replica_ol_chan_1.webp",
             "src/img/replica_ol_chan_4.webp",
             "src/img/replica_ol_chan_5.webp",
@@ -396,7 +396,7 @@ const productos = [
     {
         id: 20,
         nombre: "Marin Kitagawa Beach Figure PVC - 27.5cm",
-        precio: "65",
+        precio: "60",
         fotos: ["src/img/replica_marin_2.webp",
             "src/img/replica_marin_3.webp",
             "src/img/replica_marin_4.webp",
@@ -473,7 +473,7 @@ const productos = [
     {
         id: 23,
         nombre: "figuras variadas pvc x 3und",
-        precio: "40",
+        precio: "35",
         fotos: ["src/img/replica_variado.webp",
             "src/img/replica_variada_1.webp",
             "src/img/replica_variada_2.webp",
