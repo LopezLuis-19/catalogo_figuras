@@ -263,7 +263,7 @@ const productos = [
             tamaño: "18cm",
             serie: "Kaguya-Sama: Love is War",
             estado: "Abierto / Exhibido",
-            condicion: "(Caja 9/10)/figura(6/10) la base ha sido repadarada con pegamento, ver ultimas fotos"
+            condicion: "(Caja 9/10)/figura(6/10) la base ha sido reparada con pegamento, ver ultimas fotos"
         },
         disponible: true,
         esReplica: false
