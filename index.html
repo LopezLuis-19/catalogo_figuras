@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Figuras Anime</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body class="bg-light">
+
+    <header class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <h1 class="h3 fw-bold mb-1"></i>Venta de Figuras Anime</h1>
+            <p class="mb-0 small">Originales AmiAmi & Réplicas</p>
+        </div>
+    </header>
+
+    <section class="bg-primary text-white py-3 shadow-sm">
+        <div class="container">
+            <div class="row text-center g-3 small fw-bold">
+                <div class="col-12 col-md-4">
+                    <i class="fa-solid fa-clock me-1"></i> 11:00 am - 6:00 PM
+                </div>
+                <div class="col-12 col-md-4">
+                    <i class="fa-solid fa-location-dot me-1"></i> Entregas en Ate (Ruta Carr. Central)
+                </div>
+                <div class="col-12 col-md-4">
+                    <i class="fa-solid fa-wallet me-1"></i> Pago Contraentrega
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mt-4">
+        <div class="alert alert-warning border-0 shadow-sm mb-4">
+            <h6 class="alert-heading fw-bold mb-1"><i class="fa-solid fa-handshake me-2"></i>Reglas de Compra</h6>
+            <p class="mb-0 small text-dark">
+                Venta por espacio. <strong>No reservo sin confirmación de punto y hora.</strong> 
+                Se dará prioridad al primero en concretar.
+            </p>
+        </div>
+
+        <div class="text-center mb-5">
+            <div class="d-inline-block bg-white text-dark border rounded-pill py-2 px-3 shadow-sm" style="max-width: 100%;">
+                <small class="d-block d-md-inline">
+                    <i class="fa-solid fa-map-location-dot me-2 text-primary"></i>
+                    <strong>Puntos de encuentro:</strong>
+                </small>
+                <small class="text-muted">
+                    Huaycán | Real Plaza Santa Clara, Ceres | Real Plaza Puruchuco | Plaza Vitarte.
+                </small>
+            </div>
+        </div>
+
+        <h2 class="h4 mb-3 border-bottom pb-2"><i class="fa-solid fa-gem text-primary"></i> Figuras Originales(Open box, incluye caja original)</h2>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2 g-md-4" id="contenedor-originales"></div>
+
+        <div class="mt-5 mb-5">
+            <h2 class="h4 mb-3 border-bottom pb-2 text-secondary"><i class="fa-solid fa-box-open"></i> Sección Réplicas(sin caja, leer detalles)</h2>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2 g-md-4" id="contenedor-replicas"></div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="figuraModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+            <div class="modal-content">
+                <div class="modal-header bg-light p-2">
+                    <h6 class="modal-title fw-bold" id="modalTitle">Detalle del Producto</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-3" id="modal-body"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="src/script.js"></script>
+</body>
+</html>
