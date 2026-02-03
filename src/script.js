@@ -79,7 +79,7 @@ const productos = [
             estado: "Abierto / Exhibido",
             condicion: "Impecable (Caja 9/10)/figura(10/10)"
         },
-        disponible: true,
+        disponible: false,
         esReplica: false
     },
     {
